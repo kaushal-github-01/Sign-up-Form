@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 70%;
+  background-color: white;
+  margin: 0px auto;
+  display: flex;
+}
+
+.left {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  background-color: white;
+  width: 67vh;
+  position: absolute;
+  top: 125px;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+#logo img {
+  height: 75px;
+  width: 175px;
+  margin: 0px 0px 0px 100px;
+}
+
+#bg {
+  height: 100vh;
+  width: 30vw;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.right {
+  width: 50%;
+  margin: 0px auto;
+}
+
+.right > p {
+  padding-top: 10vh;
+}
+
+.right h3 {
+  padding-top: 5vh;
+}
+
+.right form {
+  padding-top: 5vh;
+  font-size: 15px;
+}
+
+.fieldset {
+  border: 0px solid black;
+  padding: 10px 5px;
+}
+
+#first_name,
+#last_name,
+#email,
+#phone_number,
+#password,
+#confirm_password {
+  height: 3.5vh;
+  width: 10vw;
+  border: 1.5px solid black;
+}
+
+#first_name,
+#email,
+#password {
+  margin-right: 2vh;
+}
+
+#email {
+  margin-left: 5.5vh;
+}
+
+#phone_number {
+  margin-left: 1vh;
+}
+
+#password {
+  margin-left: 2vh;
+}
+
+#confirm_password {
+  margin-left: 2.5vh;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-top: 5vh;
+}
+
+#log_in {
+  padding-top: 3vh;
+}
+
+#log_in a {
+  text-decoration: none;
+}
